@@ -1,4 +1,4 @@
-from .archook import locate_arcgis, get_arcpy
+from .archook import locate_arcgis, get_arcpy, locate_pro_conda
 from os import path
 
 __all__ = ["locate_arcgis", "get_arcpy", "locate_pro_conda"]

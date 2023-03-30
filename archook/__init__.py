@@ -1,7 +1,7 @@
 from .archook import locate_arcgis, get_arcpy
 from os import path
 
-__all__ = ["locate_arcgis", "get_arcpy"]
+__all__ = ["locate_arcgis", "get_arcpy", "locate_pro_conda"]
 
 here = path.abspath(path.dirname(__file__))
 
